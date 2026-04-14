@@ -1,0 +1,30 @@
+{
+  "specs_directory": "specs",
+  "specs": [
+    {
+      "directory": "specs/001-gestao-usuarios",
+      "short_name": "gestao-usuarios",
+      "priority": "P1"
+    },
+    {
+      "directory": "specs/002-gestao-produtos",
+      "short_name": "gestao-produtos",
+      "priority": "P1"
+    },
+    {
+      "directory": "specs/003-movimentacoes-estoque",
+      "short_name": "movimentacoes-estoque",
+      "priority": "P1"
+    },
+    {
+      "directory": "specs/004-alertas-estoque",
+      "short_name": "alertas-estoque",
+      "priority": "P2"
+    },
+    {
+      "directory": "specs/005-dashboard",
+      "short_name": "dashboard",
+      "priority": "P3"
+    }
+  ]
+}
