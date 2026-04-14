@@ -1,3 +1,14 @@
+<!--
+Sync Impact Report
+==================
+Version change: 0.0.0 → 1.0.0 (Initial creation)
+Added principles: I (Integridade de Dados), II (Rastreabilidade Completa), III (Controle de Acesso), IV (Monitoramento Proativo), V (Testabilidade), VI (Simplicidade Intencional)
+Added sections: Regras de Negócio, Fluxo de Desenvolvimento, Governança
+Templates validated: ✅ plan-template.md, ✅ spec-template.md, ✅ tasks-template.md (generic - no changes needed)
+Removed sections: None
+Follow-up TODOs: None
+-->
+
 # Constituição do Sistema de Gerenciamento de Estoque
 
 ## Princípios Fundamentais
