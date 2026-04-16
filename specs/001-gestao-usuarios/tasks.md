@@ -39,17 +39,17 @@ description: "Task list for Gestão de Usuários feature implementation"
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T007 Setup MongoDB connection configuration em backend/src/config/database.config.ts
-- [ ] T008 [P] Configure environment variables (.env.example) com MONGODB_URI, JWT_SECRET, JWT_EXPIRATION
-- [ ] T009 [P] Setup global error handling e logging em backend/src/utils/methods/handle-error.ts
-- [ ] T010 Create User entity schema em backend/src/modules/users/entities/user.entity.ts
-- [ ] T011 Create Role enum (ADMIN, MANAGER, OPERATOR) e UserStatus enum (ACTIVE, INACTIVE)
-- [ ] T012 Setup auth module estrutura em backend/src/modules/auth/
-- [ ] T013 Implement JWT Strategy em backend/src/modules/auth/strategies/jwt.strategy.ts
-- [ ] T014 Implement local Strategy em backend/src/modules/auth/strategies/local.strategy.ts
-- [ ] T015 Create Roles guard em backend/src/modules/authorization/guard/authorization.guard.ts
-- [ ] T016 Create @Roles decorator em backend/src/modules/authorization/decorator/roles.decorator.ts
-- [ ] T017 Setup AppModule integrando Mongoose e Auth modules
+- [X] T007 Setup MongoDB connection configuration em backend/src/config/database.config.ts
+- [X] T008 [P] Configure environment variables (.env.example) com MONGODB_URI, JWT_SECRET, JWT_EXPIRATION
+- [X] T009 [P] Setup global error handling e logging em backend/src/utils/methods/handle-error.ts
+- [X] T010 Create User entity schema em backend/src/modules/users/entities/user.entity.ts
+- [X] T011 Create Role enum (ADMIN, MANAGER, OPERATOR) e UserStatus enum (ACTIVE, INACTIVE)
+- [X] T012 Setup auth module estrutura em backend/src/modules/auth/
+- [X] T013 Implement JWT Strategy em backend/src/modules/auth/strategies/jwt.strategy.ts
+- [X] T014 Implement local Strategy em backend/src/modules/auth/strategies/local.strategy.ts
+- [X] T015 Create Roles guard em backend/src/modules/authorization/guard/authorization.guard.ts
+- [X] T016 Create @Roles decorator em backend/src/modules/authorization/decorator/roles.decorator.ts
+- [X] T017 Setup AppModule integrando Mongoose e Auth modules
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 
